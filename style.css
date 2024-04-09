@@ -1,0 +1,116 @@
+/* Styles de base pour tous les appareils */
+body {
+    background-color: #e2e6da;
+    color: blueviolet;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style spécifique pour les grands écrans (ordinateurs) */
+@media (min-width: 760px) {
+    h1 {
+        font-size: 42px;
+        padding: 30px 80px;
+        margin: 40px 0;
+    }
+}
+
+/* Style spécifique pour les petits écrans (téléphones et tablettes) */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+        padding: 20px 50px;
+        margin: 30px 0;
+    }
+    #logo {
+        width: 250px;
+    }
+}
+
+h1 {
+    color: #9c094e;
+    font-family: Helvetica;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color: #d0eddc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px grey;
+    display: inline-block;
+}
+
+h2 {
+    color: #090a90;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    background: #d0eddc;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px grey;
+    display: inline-block;
+}
+
+p {
+    color: #287da3;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    color: #9c094e;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#logo {
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 3px grey;
+    display: block;
+    display: inline-block;
+}
+
+div {
+    background: white;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 1.0);
+    max-width: 800px;
+}
+
+.padding-size{
+	padding-top: 20px;
+}
+
+.profile-section {
+    background: white;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 1.0);
+    max-width: 800px;
+}
+
+/* Style spécifique pour le logo Instagram */
+.fab.fa-instagram-square {
+    font-size: 35px;
+    color: #9c094e;
+    transition: color 0.3s ease;
+}
+
+.fab.fa-instagram-square:hover {
+    color: yellow; /* Couleur au survol de l'icône Instagram */
+}
